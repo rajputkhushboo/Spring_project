@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id = "demo" class = "springdemo.demo">
+      <property name ="x" value = "10"/>
+      <property name ="y" value = "20"/>
+      <property name ="list">
+      <list>
+      <value>spring is a framework</value>  
+      <value>welcome!!</value>    
+      <value>please go to javatpoint to know more</value>     
+      </list></property>
+</bean>
+</beans>
